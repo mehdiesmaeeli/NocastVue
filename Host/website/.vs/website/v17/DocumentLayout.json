@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\PawnShop\\Host\\website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\layouts\\default.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.tsx",
+              "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
+              "ToolTip": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
+              "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-13T09:54:54.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "auth.vue",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue",
+              "RelativeDocumentMoniker": "layouts\\auth.vue",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue",
+              "RelativeToolTip": "layouts\\auth.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-11T12:09:25.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "default.vue",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue",
+              "RelativeDocumentMoniker": "layouts\\default.vue",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue",
+              "RelativeToolTip": "layouts\\default.vue",
+              "ViewState": "AgIAAE0EAAAAAAAAAAAjwBkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-11T12:09:14.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T11:03:36.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "useApi.ts",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts",
+              "RelativeDocumentMoniker": "composables\\useApi.ts",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts",
+              "RelativeToolTip": "composables\\useApi.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-30T10:49:34.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "auth.ts",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts",
+              "RelativeDocumentMoniker": "middleware\\auth.ts",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts",
+              "RelativeToolTip": "middleware\\auth.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-30T10:46:00.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-29T13:50:25.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tailwind.css",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css",
+              "RelativeDocumentMoniker": "assets\\css\\tailwind.css",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css",
+              "RelativeToolTip": "assets\\css\\tailwind.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-29T09:10:17.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T09:09:36.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nuxt.config.ts",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts",
+              "RelativeDocumentMoniker": "nuxt.config.ts",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts",
+              "RelativeToolTip": "nuxt.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T09:08:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.tsx",
+              "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
+              "ToolTip": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
+              "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-13T09:54:14.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.vue",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue",
+              "RelativeDocumentMoniker": "pages\\index.vue",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue",
+              "RelativeToolTip": "pages\\index.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-29T09:08:11.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "default.css",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css",
+              "RelativeDocumentMoniker": "assets\\css\\layouts\\default.css",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css",
+              "RelativeToolTip": "assets\\css\\layouts\\default.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-11T12:11:05.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.tsx",
+              "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
+              "ToolTip": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
+              "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-13T09:54:31.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T09:09:14.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginForm.vue",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue",
+              "RelativeDocumentMoniker": "components\\LoginForm.vue",
+              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue",
+              "RelativeToolTip": "components\\LoginForm.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-29T09:08:38.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

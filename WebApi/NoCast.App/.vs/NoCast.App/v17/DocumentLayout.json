@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\common\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\common\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\common\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\pawnshop.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\pawnshop.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\common\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\common\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|d:\\project\\pawnshop\\webapi\\pawnshop.app\\pawnshop.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|PawnShop.App\\PawnShop.App.csproj|solutionrelative:pawnshop.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Common\\Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "PawnShop.App\\Common\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:18:13.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Common\\Dtos\\LoginDto.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "PawnShop.App\\Common\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:17:56.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PawnShop.App\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:16:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "PawnShop.App\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:24:57.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "PawnShop.App\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:13:54.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\appsettings.json",
+              "RelativeDocumentMoniker": "PawnShop.App\\appsettings.json",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\appsettings.json",
+              "RelativeToolTip": "PawnShop.App\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T09:14:23.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "PawnShop.App\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:16:53.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PawnShop.App.csproj",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\PawnShop.App.csproj",
+              "RelativeDocumentMoniker": "PawnShop.App\\PawnShop.App.csproj",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\PawnShop.App.csproj",
+              "RelativeToolTip": "PawnShop.App\\PawnShop.App.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T08:25:41.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Common\\Models\\ApiResponse.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Common\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "PawnShop.App\\Common\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:06:26.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PawnShop.App\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:18:28.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Program.cs",
+              "RelativeDocumentMoniker": "PawnShop.App\\Program.cs",
+              "ToolTip": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\PawnShop.App\\Program.cs",
+              "RelativeToolTip": "PawnShop.App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:32:01.575Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
