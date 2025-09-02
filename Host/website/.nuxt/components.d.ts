@@ -12,7 +12,12 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'LoginForm': typeof import("../components/LoginForm.vue")['default']
+      'AvatarOption': typeof import("../components/AvatarOption.vue")['default']
+    'Chat': typeof import("../components/Chat.vue")['default']
+    'ChatHeader': typeof import("../components/ChatHeader.vue")['default']
+    'ChatInput': typeof import("../components/ChatInput.vue")['default']
+    'ChatMessages': typeof import("../components/ChatMessages.vue")['default']
+    'LoginForm': typeof import("../components/LoginForm.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -37,7 +42,12 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
-      'LazyLoginForm': LazyComponent<typeof import("../components/LoginForm.vue")['default']>
+      'LazyAvatarOption': LazyComponent<typeof import("../components/AvatarOption.vue")['default']>
+    'LazyChat': LazyComponent<typeof import("../components/Chat.vue")['default']>
+    'LazyChatHeader': LazyComponent<typeof import("../components/ChatHeader.vue")['default']>
+    'LazyChatInput': LazyComponent<typeof import("../components/ChatInput.vue")['default']>
+    'LazyChatMessages': LazyComponent<typeof import("../components/ChatMessages.vue")['default']>
+    'LazyLoginForm': LazyComponent<typeof import("../components/LoginForm.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
     'LazyNuxtErrorBoundary': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -68,6 +78,11 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const AvatarOption: typeof import("../components/AvatarOption.vue")['default']
+export const Chat: typeof import("../components/Chat.vue")['default']
+export const ChatHeader: typeof import("../components/ChatHeader.vue")['default']
+export const ChatInput: typeof import("../components/ChatInput.vue")['default']
+export const ChatMessages: typeof import("../components/ChatMessages.vue")['default']
 export const LoginForm: typeof import("../components/LoginForm.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -93,6 +108,11 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
+export const LazyAvatarOption: LazyComponent<typeof import("../components/AvatarOption.vue")['default']>
+export const LazyChat: LazyComponent<typeof import("../components/Chat.vue")['default']>
+export const LazyChatHeader: LazyComponent<typeof import("../components/ChatHeader.vue")['default']>
+export const LazyChatInput: LazyComponent<typeof import("../components/ChatInput.vue")['default']>
+export const LazyChatMessages: LazyComponent<typeof import("../components/ChatMessages.vue")['default']>
 export const LazyLoginForm: LazyComponent<typeof import("../components/LoginForm.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>

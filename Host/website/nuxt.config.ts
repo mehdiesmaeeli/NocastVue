@@ -1,5 +1,10 @@
 ﻿export default defineNuxtConfig({
     devtools: { enabled: true },
+    runtimeConfig: {
+        public: {
+            apiBase: process.env.NUXT_PUBLIC_API_BASE || 'http://localhost:5004/api' // میتونی از .env هم بخونی
+        }
+    },
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -9,7 +14,8 @@
     css: [
         '~/public/css/style.css',
         '~/public/css/remixicon.min.css',
-        '~/assets/css/tailwind.css'
+        '~/assets/css/tailwind.css',
+        '~/public/vendors/swiper/swiper-bundle.min.css'
     ],
     app: {
         head: {

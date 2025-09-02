@@ -9,8 +9,6 @@ namespace NoCast.App.Controllers
     [ApiController]
     public abstract class BaseController : ControllerBase
     {
-        protected Guid UserId => Guid.Parse(User?.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-        protected string UserName => User?.Identity?.Name;
         protected IActionResult ApiOk<T>(T data, string message = "Success") =>
             Ok(ApiResponse<T>.Ok(data, message));
 

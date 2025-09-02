@@ -1,21 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\PawnShop\\Host\\website\\",
+  "WorkspaceRootPath": "D:\\Project\\NoCastVue\\Host\\website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\activity-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\layouts\\simple.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\simple.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-password.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\user-set-password.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-socialmedia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\user-set-socialmedia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-avatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\user-set-avatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\index.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nuxt.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\default.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\register.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\login.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\login.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\constants\\list.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:constants\\list.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\chat.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\chat.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\Chat.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\Chat.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\ChatInput.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ChatInput.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\dashbord.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\dashbord.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\start\\.nuxt\\app.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:start\\.nuxt\\app.config.mjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\ChatHeader.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ChatHeader.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\AvatarOption.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\AvatarOption.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\testavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\testavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\components\\ChatMessages.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ChatMessages.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\pages\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\pages\\chat.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\services\\signalR.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:services\\signalR.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\tailwind.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -28,39 +140,19 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\layouts\\default.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\css\\layouts\\default.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:layouts\\auth.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\LoginForm.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:middleware\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\PawnShop\\Host\\website\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -71,8 +163,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -80,6 +176,423 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "user-set-socialmedia.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-socialmedia.vue",
+              "RelativeDocumentMoniker": "pages\\user-set-socialmedia.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-socialmedia.vue",
+              "RelativeToolTip": "pages\\user-set-socialmedia.vue",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-30T12:47:09.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task-activity.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
+              "RelativeDocumentMoniker": "pages\\task-activity.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
+              "RelativeToolTip": "pages\\task-activity.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T12:47:47.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Chat.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\Chat.vue",
+              "RelativeDocumentMoniker": "components\\Chat.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\Chat.vue",
+              "RelativeToolTip": "components\\Chat.vue",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-16T11:31:39.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "auth.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\auth.vue",
+              "RelativeDocumentMoniker": "layouts\\auth.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\auth.vue",
+              "RelativeToolTip": "layouts\\auth.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-11T12:09:25.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\index.vue",
+              "RelativeDocumentMoniker": "pages\\index.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\index.vue",
+              "RelativeToolTip": "pages\\index.vue",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-29T09:08:11.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "default.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\default.vue",
+              "RelativeDocumentMoniker": "layouts\\default.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\default.vue",
+              "RelativeToolTip": "layouts\\default.vue",
+              "ViewState": "AgIAAE8FAAAAAAAAAAAhwGEFAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-11T12:09:14.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "user-set-password.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-password.vue",
+              "RelativeDocumentMoniker": "pages\\user-set-password.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-password.vue",
+              "RelativeToolTip": "pages\\user-set-password.vue",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-18T14:49:14.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user-set-avatar.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-avatar.vue",
+              "RelativeDocumentMoniker": "pages\\user-set-avatar.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-avatar.vue",
+              "RelativeToolTip": "pages\\user-set-avatar.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-18T12:22:01.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "activity-list.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue",
+              "RelativeDocumentMoniker": "pages\\activity-list.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue",
+              "RelativeToolTip": "pages\\activity-list.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T13:08:27.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "simple.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\simple.vue",
+              "RelativeDocumentMoniker": "layouts\\simple.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\simple.vue",
+              "RelativeToolTip": "layouts\\simple.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T12:25:14.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "randomavatar.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue",
+              "RelativeDocumentMoniker": "pages\\randomavatar.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue",
+              "RelativeToolTip": "pages\\randomavatar.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T10:31:29.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "register.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue",
+              "RelativeDocumentMoniker": "pages\\register.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue",
+              "RelativeToolTip": "pages\\register.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T07:24:00.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "task-list.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-list.vue",
+              "RelativeDocumentMoniker": "pages\\task-list.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-list.vue",
+              "RelativeToolTip": "pages\\task-list.vue",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T12:40:06.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "task-create.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue",
+              "RelativeDocumentMoniker": "pages\\task-create.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue",
+              "RelativeToolTip": "pages\\task-create.vue",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T12:25:45.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "nuxt.config.ts",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\nuxt.config.ts",
+              "RelativeDocumentMoniker": "nuxt.config.ts",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\nuxt.config.ts",
+              "RelativeToolTip": "nuxt.config.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-29T09:08:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "chat.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\chat.vue",
+              "RelativeDocumentMoniker": "pages\\chat.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\chat.vue",
+              "RelativeToolTip": "pages\\chat.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-16T14:22:19.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\login.vue",
+              "RelativeDocumentMoniker": "pages\\login.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\login.vue",
+              "RelativeToolTip": "pages\\login.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T07:14:39.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "list.js",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\constants\\list.js",
+              "RelativeDocumentMoniker": "constants\\list.js",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\constants\\list.js",
+              "RelativeToolTip": "constants\\list.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-27T08:02:58.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChatInput.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatInput.vue",
+              "RelativeDocumentMoniker": "components\\ChatInput.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatInput.vue",
+              "RelativeToolTip": "components\\ChatInput.vue",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T06:04:46.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dashbord.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\dashbord.vue",
+              "RelativeDocumentMoniker": "pages\\dashbord.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\dashbord.vue",
+              "RelativeToolTip": "pages\\dashbord.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T13:24:56.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "activate.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue",
+              "RelativeDocumentMoniker": "pages\\activate.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue",
+              "RelativeToolTip": "pages\\activate.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T07:26:20.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "app.config.mjs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\start\\.nuxt\\app.config.mjs",
+              "RelativeDocumentMoniker": "start\\.nuxt\\app.config.mjs",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\start\\.nuxt\\app.config.mjs",
+              "RelativeToolTip": "start\\.nuxt\\app.config.mjs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-19T05:24:55.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginForm.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\LoginForm.vue",
+              "RelativeDocumentMoniker": "components\\LoginForm.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\LoginForm.vue",
+              "RelativeToolTip": "components\\LoginForm.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-07-29T09:08:38.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "auth.ts",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\middleware\\auth.ts",
+              "RelativeDocumentMoniker": "middleware\\auth.ts",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\middleware\\auth.ts",
+              "RelativeToolTip": "middleware\\auth.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-30T10:46:00.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-29T13:50:25.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatHeader.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatHeader.vue",
+              "RelativeDocumentMoniker": "components\\ChatHeader.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatHeader.vue",
+              "RelativeToolTip": "components\\ChatHeader.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T06:04:06.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AvatarOption.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\AvatarOption.vue",
+              "RelativeDocumentMoniker": "components\\AvatarOption.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\AvatarOption.vue",
+              "RelativeToolTip": "components\\AvatarOption.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T10:11:00.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "testavatar.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\testavatar.vue",
+              "RelativeDocumentMoniker": "pages\\testavatar.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\testavatar.vue",
+              "RelativeToolTip": "pages\\testavatar.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T08:39:43.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChatMessages.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatMessages.vue",
+              "RelativeDocumentMoniker": "components\\ChatMessages.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatMessages.vue",
+              "RelativeToolTip": "components\\ChatMessages.vue",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAkwMoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T06:04:27.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "chat.css",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\pages\\chat.css",
+              "RelativeDocumentMoniker": "assets\\css\\pages\\chat.css",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\pages\\chat.css",
+              "RelativeToolTip": "assets\\css\\pages\\chat.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-16T14:42:26.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "signalR.js",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\services\\signalR.js",
+              "RelativeDocumentMoniker": "services\\signalR.js",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\services\\signalR.js",
+              "RelativeToolTip": "services\\signalR.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-16T11:31:04.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "tailwind.css",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\tailwind.css",
+              "RelativeDocumentMoniker": "assets\\css\\tailwind.css",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\tailwind.css",
+              "RelativeToolTip": "assets\\css\\tailwind.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-29T09:10:17.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-29T09:09:36.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T11:03:36.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
@@ -87,129 +600,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-13T09:54:54.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T09:54:54.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "auth.vue",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue",
-              "RelativeDocumentMoniker": "layouts\\auth.vue",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\layouts\\auth.vue",
-              "RelativeToolTip": "layouts\\auth.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-11T12:09:25.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "default.vue",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue",
-              "RelativeDocumentMoniker": "layouts\\default.vue",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\layouts\\default.vue",
-              "RelativeToolTip": "layouts\\default.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-11T12:09:14.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "package-lock.json",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\package-lock.json",
-              "RelativeDocumentMoniker": "package-lock.json",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\package-lock.json",
-              "RelativeToolTip": "package-lock.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-30T11:03:36.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "useApi.ts",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts",
-              "RelativeDocumentMoniker": "composables\\useApi.ts",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\composables\\useApi.ts",
-              "RelativeToolTip": "composables\\useApi.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-30T10:49:34.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "auth.ts",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts",
-              "RelativeDocumentMoniker": "middleware\\auth.ts",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\middleware\\auth.ts",
-              "RelativeToolTip": "middleware\\auth.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-30T10:46:00.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": ".env",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-29T13:50:25.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tailwind.css",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css",
-              "RelativeDocumentMoniker": "assets\\css\\tailwind.css",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\tailwind.css",
-              "RelativeToolTip": "assets\\css\\tailwind.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-29T09:10:17.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\tsconfig.json",
-              "RelativeDocumentMoniker": "tsconfig.json",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\tsconfig.json",
-              "RelativeToolTip": "tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-29T09:09:36.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "nuxt.config.ts",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts",
-              "RelativeDocumentMoniker": "nuxt.config.ts",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\nuxt.config.ts",
-              "RelativeToolTip": "nuxt.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-29T09:08:57.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 34,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
@@ -217,38 +612,23 @@
               "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-13T09:54:14.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T09:54:14.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.vue",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue",
-              "RelativeDocumentMoniker": "pages\\index.vue",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\pages\\index.vue",
-              "RelativeToolTip": "pages\\index.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-07-29T09:08:11.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 35,
               "Title": "default.css",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\layouts\\default.css",
               "RelativeDocumentMoniker": "assets\\css\\layouts\\default.css",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\assets\\css\\layouts\\default.css",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\layouts\\default.css",
               "RelativeToolTip": "assets\\css\\layouts\\default.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-11T12:11:05.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T12:11:05.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 33,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
@@ -256,34 +636,19 @@
               "RelativeToolTip": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-13T09:54:31.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T09:54:31.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 36,
               "Title": "package.json",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\package.json",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\package.json",
               "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\package.json",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\package.json",
               "RelativeToolTip": "package.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-29T09:09:14.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.vue",
-              "DocumentMoniker": "D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue",
-              "RelativeDocumentMoniker": "components\\LoginForm.vue",
-              "ToolTip": "D:\\Project\\PawnShop\\Host\\website\\components\\LoginForm.vue",
-              "RelativeToolTip": "components\\LoginForm.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-07-29T09:08:38.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T09:09:14.326Z"
             }
           ]
         }

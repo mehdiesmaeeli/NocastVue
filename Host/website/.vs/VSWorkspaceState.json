@@ -3,11 +3,13 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\composables",
+    "\\constants",
     "\\layouts",
     "\\pages",
     "\\public",
     "\\public\\css"
   ],
-  "SelectedNode": "\\layouts\\default.vue",
+  "SelectedNode": "\\layouts\\auth.vue",
   "PreviewInSolutionExplorer": false
 }

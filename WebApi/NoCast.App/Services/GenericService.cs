@@ -9,7 +9,7 @@ namespace NoCast.App.Services
     {
         protected readonly ApplicationDbContext _context;
         protected readonly DbSet<TEntity> _dbSet;
-        private readonly IMapper _mapper;
+        protected readonly IMapper _mapper;
 
         public GenericService(ApplicationDbContext context, IMapper mapper)
         {
@@ -33,18 +33,33 @@ namespace NoCast.App.Services
 
         public virtual async Task<TDto> CreateAsync(TDto dto)
         {
-            var entity = _mapper.Map<TEntity>(dto);
-            await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
-            return _mapper.Map<TDto>(entity);
+            try
+            {
+                var entity = _mapper.Map<TEntity>(dto);
+                await _dbSet.AddAsync(entity);
+                await _context.SaveChangesAsync();
+                return _mapper.Map<TDto>(entity);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public virtual async Task<TDto> UpdateAsync(TDto dto)
         {
-            var entity = _mapper.Map<TEntity>(dto);
-            _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
-            return _mapper.Map<TDto>(entity);
+            try
+            {
+                var entity = _mapper.Map<TEntity>(dto);
+                _dbSet.Update(entity);
+                await _context.SaveChangesAsync();
+                return _mapper.Map<TDto>(entity);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public virtual async Task<bool> DeleteAsync(Guid id)

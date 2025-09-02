@@ -1,5 +1,5 @@
 import type { ComputedRef, MaybeRef } from 'vue'
-export type LayoutKey = "auth" | "default"
+export type LayoutKey = "auth" | "default" | "simple"
 declare module 'nuxt/app' {
   interface PageMeta {
     layout?: MaybeRef<LayoutKey | false> | ComputedRef<LayoutKey | false>

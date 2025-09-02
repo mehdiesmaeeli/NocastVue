@@ -10,15 +10,25 @@ using NoCast.App.Common.Statics;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Security.Claims;
+using NoCast.App.Hubs;
+using NoCast.App.Services.Interfaces;
+using NoCast.App.Services;
+using Microsoft.Extensions.DependencyInjection;
+using NoCast.App.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 // ??? ILogger
 builder.Services.AddLogging(logging =>
 {
-    logging.AddConsole(); // ??? ?? ?????
-    // ????????? ???????? ?????????? ??? Serilog ?? ????? ????
+    logging.AddConsole();
 });
 builder.Services.AddControllers();
+// Add memory cache
+builder.Services.AddMemoryCache();
+
+builder.Services.AddAutoMapper(cfg => { 
+    cfg.AddProfile<MyMappingProfile>(); 
+});
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddSwaggerGen(c =>
@@ -51,18 +61,20 @@ builder.Services.AddSwaggerGen(c =>
             Array.Empty<string>()
         }
     });
-}); builder.Services.AddCors(options =>
+});
+builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowLocal", policy =>
     {
-        policy
-            .AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
-
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+builder.Services.AddScoped<IServiceRequestService, ServiceRequestService>();
+builder.Services.AddScoped<ISocialAccountService, SocialAccountService>();
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
@@ -85,6 +97,24 @@ builder.Services.AddAuthentication(options =>
         NameClaimType = ClaimTypes.Name,
         RoleClaimType = ClaimTypes.Role
     };
+
+    options.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
+        {
+            // اگه توکن از query string فرستاده شد (SignalR وقتی JWT می‌فرسته اینجوریه)
+            var accessToken = context.Request.Query["access_token"];
+
+            // اگه Hub path هست
+            var path = context.HttpContext.Request.Path;
+            if (!string.IsNullOrEmpty(accessToken) &&
+                path.StartsWithSegments("/chathub"))
+            {
+                context.Token = accessToken;
+            }
+            return Task.CompletedTask;
+        }
+    };
 });
 
 builder.Services.AddAuthorization(options =>
@@ -97,24 +127,23 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSignalR(); // Add this line
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
     var roles = new[]
     {
         AppRoles.Admin,
-        AppRoles.Seller,
-        AppRoles.Provider,
         AppRoles.Customer
     };
     foreach (var roleName in roles)
     {
         if (!await roleManager.RoleExistsAsync(roleName))
         {
-            await roleManager.CreateAsync(new IdentityRole(roleName));
+            await roleManager.CreateAsync(new ApplicationRole(roleName));
         }
     }
 }
@@ -126,11 +155,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseCors("AllowLocal");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-
-app.UseCors("AllowAll");
+app.MapHub<ChatHub>("/chatHub"); // Add this line
 app.Run();

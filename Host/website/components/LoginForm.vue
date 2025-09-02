@@ -2,8 +2,8 @@
     <div class="max-w-md mx-auto">
         <h2 class="text-2xl font-semibold mb-4">Login</h2>
         <div class="mb-4">
-            <label for="email" class="block text-sm font-medium">Phone</label>
-            <input v-model="email" type="email" id="email" class="w-full p-2 border rounded" />
+            <label for="phone" class="block text-sm font-medium">Phone</label>
+            <input v-model="phone" type="phone" id="phone" class="w-full p-2 border rounded" />
         </div>
         <div class="mb-4">
             <label for="password" class="block text-sm font-medium">Password</label>
@@ -17,7 +17,7 @@
 <script setup>
     import { ref } from 'vue'
 
-    const email = ref('')
+    const phone = ref('')
     const password = ref('')
     const error = ref('')
 
@@ -26,7 +26,7 @@
             const { data, error } = await useFetch('http://localhost:5004/api/auth/login', {
                 method: 'POST',
                 body: {
-                    email: email.value,
+                    phone: phone.value,
                     password: password.value
                 }
             });
