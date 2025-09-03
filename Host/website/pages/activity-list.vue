@@ -4,8 +4,17 @@
             <header class="default heade-sticky">
                 <div class="un-title-page go-back">
                     <a @click="$router.back()" class="icon"><i class="ri-arrow-drop-right-line"></i></a>
-                    <slot name="header"></slot>
-
+                </div>
+                <div class="un-block-right">
+                    <div class="btn-like-click shape-box">
+                        <div class="btnLike">
+                            <input type="checkbox">
+                            <span class="count-likes">{{task.todayCnt}}/{{task.giftCnt}}</span>
+                            <div class="icon-inside">
+                                <i class="ri-gift-line"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </header>
             <div class="space-sticky"></div>
@@ -14,15 +23,14 @@
                 <div class="head">
                     <div class="title-card-text d-flex align-items-center justify-content-between">
                         <div class="text">
-                            <h1>کهکشان روی زمین</h1>
-                            <p>12 نسخه های ضرب شده</p>
+                            <h1>{{task.title}}</h1>
                         </div>
                         <span class="btn-xs-size bg-pink text-white rounded-pill">ورزشی</span>
                     </div>
                     <div class="txt-price-coundown d-flex justify-content-between">
                         <div class="price">
-                            <h2>پیشنهاد اولیه</h2>
-                            <p>2.3<span class="size-16">ETH</span><span class="dollar">(8,350)</span></p>
+                            <h2>درآمد</h2>
+                            <p>{{task.price}}<span class="size-16">NoC</span></p>
                         </div>
                     </div>
                 </div>
@@ -39,8 +47,7 @@
                                         <a href="page-creator-profile.html" class="item-user-img visited">
                                             <div class="wrapper-image">
                                                 <picture>
-                                                    <source srcset="/images/avatar/14.webp" type="image/webp">
-                                                    <img class="avt-img" src="/images/avatar/14.jpg" alt="">
+                                                    <img class="avt-img" :src=dataUri alt="">
                                                 </picture>
                                                 <div class="icon"><i class="ri-checkbox-circle-fill"></i></div>
                                             </div>
@@ -62,7 +69,7 @@
                             <a href="page-collectibles-details.html" class="icon-box prev"><i class="ri-arrow-right-line"></i></a>
                             <a href="page-collectibles-details.html" class="icon-box next"><i class="ri-arrow-left-line"></i></a>
                         </div>
-                        <a href="javascript: void(0)" class="btn btn-bid-items">
+                        <a href="{{task.url}}" class="btn btn-bid-items" target="_blank">
                             <p>اقدام میکنم</p>
                             <div class="ico"><i class="ri-arrow-drop-left-line"></i></div>
                         </a>
@@ -78,4 +85,36 @@
     definePageMeta({
         layout: false,
     });
+    import { ref, onMounted } from 'vue'
+    import { useApi } from '@/composables/useApi';
+
+    import { createAvatar } from '@dicebear/core'
+    import { micah } from '@dicebear/collection'
+
+    const { call } = useApi();
+    const task = ref({
+        todayCnt : 0,
+        giftCnt: 0,
+        title: '',
+        price: 0,
+        url:''
+    });
+    const dataUri = ref('')
+    onMounted(async () => {
+        const seed = Math.random().toString(36).substring(2, 10)
+        const svg = createAvatar(micah, {
+            seed,
+            size: 180
+        }).toString();
+
+        const svgBase64 = btoa(unescape(encodeURIComponent(svg))); // تبدیل به base64
+        dataUri.value = `data:image/svg+xml;base64,${svgBase64}`;
+
+        const { resp, error } = await call('/task', {
+            method: 'GET'
+        })
+        if (!error && resp?.data) {
+            task.value = resp?.data
+        }
+    })
 </script>

@@ -1,4 +1,5 @@
-﻿using NoCast.App.Common.Models;
+﻿using NoCast.App.Common.Exception;
+using NoCast.App.Common.Models;
 using System.Net;
 using System.Text.Json;
 
@@ -37,6 +38,7 @@ namespace NoCast.App.Middleware
             {
                 UnauthorizedAccessException => (int)HttpStatusCode.Unauthorized,
                 KeyNotFoundException => (int)HttpStatusCode.NotFound,
+                BusinessException bex => bex.StatusCode,
                 _ => (int)HttpStatusCode.InternalServerError
             };
 

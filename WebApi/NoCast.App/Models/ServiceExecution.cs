@@ -5,11 +5,12 @@
         public Guid Id { get; set; }
         public Guid ServiceRequestId { get; set; }
         public Guid ExecutorUserId { get; set; }
-        public Guid ExecutorSocialAccountId { get; set; } // اکانتی که باهاش کار رو انجام داده
+        //public Guid ExecutorSocialAccountId { get; set; } // اکانتی که باهاش کار رو انجام داده
         public ExecutionStatus Status { get; set; }
         public DateTime? SubmittedAt { get; set; }
         public DateTime? ApprovedAt { get; set; }
         public decimal Reward { get; set; } // پس از تایید به کیف پول انجام‌دهنده واریز می‌شود
+        public  ServiceRequest ServiceRequest { get; set; }
     }
 
     public enum ExecutionStatus

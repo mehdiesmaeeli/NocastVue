@@ -7,6 +7,7 @@ namespace NoCast.App.Models
         public string? AvatarPath { get; set; }
         public string PhoneNumber { get; set; }
         public Wallet Wallet { get; set; }
+        public bool IsActive { get; set; } = true;
         public ICollection<ServiceRequest> Requests { get; set; }
         public ICollection<ServiceExecution> Executions { get; set; }
     }

@@ -15,6 +15,7 @@ using NoCast.App.Services.Interfaces;
 using NoCast.App.Services;
 using Microsoft.Extensions.DependencyInjection;
 using NoCast.App.Mappings;
+using NoCast.App.Contract.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 // ??? ILogger
@@ -74,6 +75,8 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddScoped<IServiceRequestService, ServiceRequestService>();
 builder.Services.AddScoped<ISocialAccountService, SocialAccountService>();
+builder.Services.AddScoped<IApplicationTaskService, ApplicationTaskService>();
+builder.Services.AddScoped<IApplicationUserService, ApplicationUserService>();
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
@@ -146,6 +149,9 @@ using (var scope = app.Services.CreateScope())
             await roleManager.CreateAsync(new ApplicationRole(roleName));
         }
     }
+
+    var taskCache = services.GetRequiredService<IApplicationTaskService>();
+    await taskCache.InitTaskAsync();
 }
 
 // Configure the HTTP request pipeline.

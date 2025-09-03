@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NoCast.App.Common.Dtos;
 using NoCast.App.Common.Statics;
+using NoCast.App.Contract.Services;
 using NoCast.App.Dtos;
 using NoCast.App.Services.Interfaces;
 
@@ -13,11 +14,20 @@ namespace NoCast.App.Controllers.Customer
     public class TaskController : BaseCustomerController
     {
         private readonly IServiceRequestService _serviceRequestService;
+        private readonly IApplicationTaskService _applicationTaskService;
 
-        public TaskController(IServiceRequestService serviceRequestService)
+        public TaskController(IServiceRequestService serviceRequestService, IApplicationTaskService applicationTaskService)
         {
             _serviceRequestService = serviceRequestService;
+            _applicationTaskService = applicationTaskService;
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            return ApiOk(new { id = 1, todayCnt = 1, giftCnt = 99 , title = "asdasdasd" , url = "/asd/asd" , price = 1 }, "Success");
+        }
+
         [HttpGet("list")]
         public async Task<IActionResult> GetList()
         {
@@ -57,7 +67,23 @@ namespace NoCast.App.Controllers.Customer
         public async Task<IActionResult> Create([FromBody] ServiceRequestDto modelDto)
         {
             modelDto.UserId = UserId;
-            var result = await _serviceRequestService.CreateAsync(modelDto);
+            var result = await _applicationTaskService.CreateTaskAsync(new() { OwnerId = UserId , ServiceRequest = modelDto});
+            return ApiOk(result, "Success");
+        }
+
+        [HttpPost("do")]
+        public async Task<IActionResult> Do([FromBody] TaskDoDto modelDto)
+        {
+            modelDto.WorkerId = UserId;
+            var result = await _applicationTaskService.TaskDoAsync(modelDto);
+            return ApiOk(result, "Success");
+        }
+
+        [HttpPost("approve")]
+        public async Task<IActionResult> Approve([FromBody] TaskApproveDto modelDto)
+        {
+            modelDto.UserId = UserId;
+            var result = await _applicationTaskService.TaskApproveAsync(modelDto);
             return ApiOk(result, "Success");
         }
     }

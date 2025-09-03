@@ -5,4 +5,9 @@
         public const string Admin = "Admin";
         public const string Customer = "Customer";
     }
+
+    public static class AppSettings
+    {
+        public const string AllTasks = "AllTasks";
+    }
 }

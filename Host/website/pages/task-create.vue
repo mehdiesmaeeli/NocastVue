@@ -86,7 +86,6 @@
         const { resp, error } = await call('/socialAccount', {
             method: 'GET'
         });
-        debugger;
         if (!error && resp?.data) {
             if(resp.data.length > 0)
                 task.value.targetSocialAccountId = resp.data[0].id;
@@ -99,13 +98,10 @@
     })
 
     const CreateTask = async () => {
-            const { resp, error } = await call('/task', {
-                method: 'POST',
-                body: task.value
-            });
-
-            if (error.value) throw error.value;
-
-         
+        const { resp, error } = await call('/task', {
+            method: 'POST',
+            body: task.value
+        });
+        if (error.value) throw error.value;
     }
 </script>

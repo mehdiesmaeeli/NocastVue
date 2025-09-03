@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using NoCast.App.Common.Dtos;
 using NoCast.App.Common.Statics;
 using Microsoft.Extensions.Caching.Memory;
+using NoCast.App.Contract.Services;
 
 namespace NoCast.App.Controllers
 {
@@ -17,13 +18,19 @@ namespace NoCast.App.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IConfiguration _configuration;
+        private readonly IApplicationUserService _applicationUserService;
 
-        public AuthController(IMemoryCache cache,UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration configuration)
+        public AuthController(IMemoryCache cache,
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            IConfiguration configuration,
+            IApplicationUserService applicationUserService)
         {
             _cache = cache;
             _userManager = userManager;
             _signInManager = signInManager;
             _configuration = configuration;
+            _applicationUserService = applicationUserService;
         }
 
 
@@ -52,11 +59,13 @@ namespace NoCast.App.Controllers
             var user = await _userManager.FindByNameAsync(modelDto.Phone);
             if (user == null)
                 return ApiUnauthorized("کاربری با این ایمیل پیدا نشد.");
-
+            if (!user.IsActive)
+                return ApiUnauthorized("کاربری شما غیر فعال است لطفا با بخش پشتیبانی تماس بگیرید.");
             var isPasswordValid = await _userManager.CheckPasswordAsync(user, modelDto.Password);
             if (!isPasswordValid)
                 return ApiUnauthorized("رمز عبور اشتباه است.");
 
+            await _applicationUserService.CreateSessionAsync(user.Id);
             var token = await GenerateJwtToken(user);
             return ApiOk(token, "Login successful");
         }
