@@ -62,7 +62,11 @@ namespace NoCast.App.Controllers.Customer
                 new { id = 34, name = "سارا", date = DateTime.Now , isPay=true},
                 new { id = 35, name = "سارا", date = DateTime.Now , isPay=true},
             };
-            var result = new { id = 1, name = "tetst dfsdf", list = list.OrderByDescending(x=> x.date).GroupBy(x=> x.date.ToRelativeDate()).ToDictionary(g => g.Key, g => g.Select(x=> new {x.id ,x.name,x.isPay, time = x.date.ToRelativeTime() }).ToList())};
+            var result = new { id = 1, name = "tetst dfsdf", list = list.OrderByDescending(x=> x.date)
+                .GroupBy(x=> x.date.ToRelativeDate())
+                .ToDictionary(
+                g => g.Key, 
+                g => g.Select(x=> new {x.id ,x.name,x.isPay, time = x.date.ToRelativeTime() }).ToList())};
             return ApiOk(result, "Success");
         }
 

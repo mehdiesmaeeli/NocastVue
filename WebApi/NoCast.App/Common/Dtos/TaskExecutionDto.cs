@@ -11,8 +11,8 @@ namespace NoCast.App.Dtos
         public Guid ExecutorUserId { get; set; }
         public Guid ExecutorSocialAccountId { get; set; }
         public int Status { get; set; }
-        public List<string> SubmittedAt { get; set; }
-        public List<string> ApprovedAt { get; set; }
+        public DateTime SubmittedAt { get; set; }
+        public DateTime ApprovedAt { get; set; }
         public decimal Reward { get; set; }
         public List<ServiceExecutionDto> Executers { get; set; }
     }
