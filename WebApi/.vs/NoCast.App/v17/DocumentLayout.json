@@ -7,8 +7,52 @@
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\controllers\\customer\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\applicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\applicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\contract\\services\\iapplicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\iapplicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\serviceexecutiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\serviceexecutiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\taskexecutiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskexecutiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\contract\\services\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\servicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\servicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\usersessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\usersessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\taskdodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskdodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\applicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\applicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\statics\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\statics\\approles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\contract\\services\\iapplicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\iapplicationtaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\tasksessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,14 +103,6 @@
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\usersessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\usersessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\models\\serviceexecution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\models\\serviceexecution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,23 +111,11 @@
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskapprovedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\servicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\servicerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250902125719_service-executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NoCast.App\\Migrations\\20250902125719_service-executer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\unic\\component-stories.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\dtos\\taskdodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\dtos\\taskdodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -112,10 +128,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\common\\exception\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\common\\exception\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\services\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -368,10 +380,6 @@
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\iserviceexecutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\contract\\services\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|d:\\project\\nocastvue\\webapi\\nocast.app\\contract\\services\\isocialaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F3AEEA9-C9FF-43A4-9425-537A9528E487}|NoCast.App\\NoCast.App.csproj|solutionrelative:nocast.app\\contract\\services\\isocialaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -403,8 +411,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskExecutionDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskExecutionDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskExecutionDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskExecutionDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskExecutionDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:12:27.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExecutionDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceExecutionDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\ServiceExecutionDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceExecutionDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\ServiceExecutionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T12:02:31.499Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -415,280 +449,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250903135006_is-active.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250903135006_is-active.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250903135006_is-active.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250903135006_is-active.cs",
-              "RelativeToolTip": "NoCast.App\\Migrations\\20250903135006_is-active.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:50:06.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "NoCast.App\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:25:02.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\BaseController.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "NoCast.App\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T13:49:17.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "NoCast.App\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T13:09:42.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Models\\Notification.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\Notification.cs",
-              "RelativeToolTip": "NoCast.App\\Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:29:47.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\TaskController.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Customer\\TaskController.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\TaskController.cs*",
-              "RelativeToolTip": "NoCast.App\\Controllers\\Customer\\TaskController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\TaskController.cs",
+              "RelativeToolTip": "NoCast.App\\Controllers\\Customer\\TaskController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDcAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T11:14:47.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Program.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Program.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Program.cs",
-              "RelativeToolTip": "NoCast.App\\Program.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAADwv5gAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T11:28:50.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUserService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationUserService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Services\\ApplicationUserService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationUserService.cs",
-              "RelativeToolTip": "NoCast.App\\Services\\ApplicationUserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T06:59:44.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationTaskService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationTaskService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Services\\ApplicationTaskService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationTaskService.cs",
-              "RelativeToolTip": "NoCast.App\\Services\\ApplicationTaskService.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwHIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:00:26.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "NoCast.App\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T10:52:33.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IApplicationUserService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
-              "RelativeToolTip": "NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T06:57:19.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppRoles.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Statics\\AppRoles.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Common\\Statics\\AppRoles.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Statics\\AppRoles.cs",
-              "RelativeToolTip": "NoCast.App\\Common\\Statics\\AppRoles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:26:11.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "IApplicationTaskService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationTaskService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IApplicationTaskService.cs",
               "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationTaskService.cs",
               "RelativeToolTip": "NoCast.App\\Contract\\Services\\IApplicationTaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T07:56:36.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TaskSessionDto.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
-              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationTaskService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationTaskService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Services\\ApplicationTaskService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationTaskService.cs",
+              "RelativeToolTip": "NoCast.App\\Services\\ApplicationTaskService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T06:26:54.116Z",
+              "WhenOpened": "2025-09-03T07:00:26.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CacheService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\CacheService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Services\\CacheService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\CacheService.cs",
-              "RelativeToolTip": "NoCast.App\\Services\\CacheService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T12:52:52.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ServiceExecution.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ServiceExecution.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Models\\ServiceExecution.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ServiceExecution.cs",
-              "RelativeToolTip": "NoCast.App\\Models\\ServiceExecution.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:29:51.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "NoCast.App\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:25:28.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\UserController.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Customer\\UserController.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\UserController.cs",
-              "RelativeToolTip": "NoCast.App\\Controllers\\Customer\\UserController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T11:50:46.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TaskApproveDto.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
-              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T12:20:16.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserSessionDto.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
-              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T06:25:18.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 8,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskDto.cs",
               "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskDto.cs",
               "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T10:21:03.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
+              "Title": "ServiceRequestDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T11:47:13.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "NoCast.App\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:25:28.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceRequestService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
+              "RelativeToolTip": "NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T12:51:19.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Services\\GenericService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\GenericService.cs",
+              "RelativeToolTip": "NoCast.App\\Services\\GenericService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:25:07.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUserService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationUserService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Services\\ApplicationUserService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ApplicationUserService.cs",
+              "RelativeToolTip": "NoCast.App\\Services\\ApplicationUserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:59:44.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserSessionDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\UserSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:25:18.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TaskDoDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskDoDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskDoDto.cs",
@@ -701,20 +592,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ServiceRequestDto.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
-              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\ServiceRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAATAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Program.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Program.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Program.cs",
+              "RelativeToolTip": "NoCast.App\\Program.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAADwv5gAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T11:47:13.527Z",
+              "WhenOpened": "2025-08-16T11:28:50.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Models\\Notification.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\Notification.cs",
+              "RelativeToolTip": "NoCast.App\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:29:47.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NoCast.App\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T13:09:42.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "NoCast.App\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T13:49:17.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "NoCast.App\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:25:02.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250903135006_is-active.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250903135006_is-active.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250903135006_is-active.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250903135006_is-active.cs",
+              "RelativeToolTip": "NoCast.App\\Migrations\\20250903135006_is-active.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T13:50:06.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "NoCast.App\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T10:52:33.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IApplicationUserService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
+              "RelativeToolTip": "NoCast.App\\Contract\\Services\\IApplicationUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:57:19.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppRoles.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Statics\\AppRoles.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Statics\\AppRoles.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Statics\\AppRoles.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Statics\\AppRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:26:11.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "TaskSessionDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:26:54.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\CacheService.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Services\\CacheService.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\CacheService.cs",
+              "RelativeToolTip": "NoCast.App\\Services\\CacheService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T12:52:52.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServiceExecution.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ServiceExecution.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Models\\ServiceExecution.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ServiceExecution.cs",
+              "RelativeToolTip": "NoCast.App\\Models\\ServiceExecution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:29:51.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\UserController.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Customer\\UserController.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\UserController.cs",
+              "RelativeToolTip": "NoCast.App\\Controllers\\Customer\\UserController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:50:46.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskApproveDto.cs",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
+              "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
+              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
+              "RelativeToolTip": "NoCast.App\\Common\\Dtos\\TaskApproveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T12:20:16.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "20250902125719_service-executer.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250902125719_service-executer.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250902125719_service-executer.cs",
@@ -727,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "component-stories.html",
               "DocumentMoniker": "D:\\Project\\unic\\component-stories.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\component-stories.html",
@@ -740,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ServiceRequest.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ServiceRequest.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\ServiceRequest.cs",
@@ -753,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Wallet.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\Wallet.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\Wallet.cs",
@@ -766,20 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GenericService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\GenericService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Services\\GenericService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\GenericService.cs",
-              "RelativeToolTip": "NoCast.App\\Services\\GenericService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwA0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T09:25:07.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "BusinessException.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Exception\\BusinessException.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Exception\\BusinessException.cs",
@@ -792,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "AIContentRequestService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\AIContentRequestService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\AIContentRequestService.cs",
@@ -805,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "SocialAccount.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\SocialAccount.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\SocialAccount.cs",
@@ -818,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "IFileUploadService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\IFileUploadService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\IFileUploadService.cs",
@@ -831,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "MyMappingProfile.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Mapping\\MyMappingProfile.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Mapping\\MyMappingProfile.cs",
@@ -844,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "20250831113132_service-request.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250831113132_service-request.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250831113132_service-request.cs",
@@ -857,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "SocialAccountController.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\SocialAccountController.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Customer\\SocialAccountController.cs",
@@ -870,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "SimpleController.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Admin\\SimpleController.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Admin\\SimpleController.cs",
@@ -883,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "SocialAccountDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\SocialAccountDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\SocialAccountDto.cs",
@@ -896,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "BaseCustomerController.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Customer\\BaseCustomerController.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Customer\\BaseCustomerController.cs",
@@ -909,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "SocialAccountService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\SocialAccountService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\SocialAccountService.cs",
@@ -922,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "BaseAdminController.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Controllers\\Admin\\BaseAdminController.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Controllers\\Admin\\BaseAdminController.cs",
@@ -935,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "ServiceDefinitionDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ServiceDefinitionDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\ServiceDefinitionDto.cs",
@@ -948,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "ServiceRequestService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ServiceRequestService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\ServiceRequestService.cs",
@@ -961,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\appsettings.json",
               "RelativeDocumentMoniker": "NoCast.App\\appsettings.json",
@@ -974,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "20250830113529_delete-definition.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250830113529_delete-definition.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250830113529_delete-definition.cs",
@@ -987,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "IWalletService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IWalletService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IWalletService.cs",
@@ -1000,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "ServiceExecutionService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\ServiceExecutionService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\ServiceExecutionService.cs",
@@ -1013,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 92,
               "Title": "WalletService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\WalletService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\WalletService.cs",
@@ -1026,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "DateTimeExtensions.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Statics\\DateTimeExtensions.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Statics\\DateTimeExtensions.cs",
@@ -1039,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 93,
               "Title": "WalletTransactionService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\WalletTransactionService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\WalletTransactionService.cs",
@@ -1052,7 +1099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 94,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\NotificationService.cs",
@@ -1065,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 95,
               "Title": "AIContentRequest.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\AIContentRequest.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\AIContentRequest.cs",
@@ -1078,7 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 96,
               "Title": "IAIContentRequestService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IAIContentRequestService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IAIContentRequestService.cs",
@@ -1091,7 +1138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 97,
               "Title": "FileUploadService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\FileUploadService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\FileUploadService.cs",
@@ -1104,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 98,
               "Title": "PaymentGatewayLogService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Services\\PaymentGatewayLogService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Services\\PaymentGatewayLogService.cs",
@@ -1117,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 99,
               "Title": "ICacheService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\ICacheService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\ICacheService.cs",
@@ -1130,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 100,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\INotificationService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\INotificationService.cs",
@@ -1143,7 +1190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 101,
               "Title": "IPaymentGatewayLogService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IPaymentGatewayLogService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IPaymentGatewayLogService.cs",
@@ -1156,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 102,
               "Title": "IServiceExecutionService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IServiceExecutionService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IServiceExecutionService.cs",
@@ -1169,20 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "IServiceRequestService.cs",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
-              "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
-              "ToolTip": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
-              "RelativeToolTip": "NoCast.App\\Contract\\Services\\IServiceRequestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T12:51:19.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 103,
               "Title": "ISocialAccountService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\ISocialAccountService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\ISocialAccountService.cs",
@@ -1195,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 104,
               "Title": "IWalletTransactionService.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Contract\\Services\\IWalletTransactionService.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Contract\\Services\\IWalletTransactionService.cs",
@@ -1208,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 105,
               "Title": "AIContentRequestDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\AIContentRequestDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\AIContentRequestDto.cs",
@@ -1221,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 106,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\UserDto.cs",
@@ -1234,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Hubs\\ChatHub.cs",
@@ -1247,7 +1281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\ChatMessage.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\ChatMessage.cs",
@@ -1260,7 +1294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "page-stories-grid.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-stories-grid.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-stories-grid.html",
@@ -1273,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 107,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\ResetPasswordDto.cs",
@@ -1286,7 +1320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "component-toasts.html",
               "DocumentMoniker": "D:\\Project\\unic\\component-toasts.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\component-toasts.html",
@@ -1299,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "page-step-enter-password.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-step-enter-password.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-step-enter-password.html",
@@ -1312,7 +1346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "postman_collection_sms.json",
               "DocumentMoniker": "C:\\Users\\m.esmaeili\\Downloads\\postman_collection_sms.json",
               "ToolTip": "C:\\Users\\m.esmaeili\\Downloads\\postman_collection_sms.json",
@@ -1323,7 +1357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "response_1755669663686.json",
               "DocumentMoniker": "C:\\Users\\m.esmaeili\\Downloads\\response_1755669663686.json",
               "ToolTip": "C:\\Users\\m.esmaeili\\Downloads\\response_1755669663686.json",
@@ -1334,7 +1368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "page-my-item.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-my-item.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-my-item.html",
@@ -1347,7 +1381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "page-create-single.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-create-single.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-create-single.html",
@@ -1360,7 +1394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "page-collectibles-details.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-collectibles-details.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-collectibles-details.html",
@@ -1373,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\LoginDto.cs",
@@ -1386,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\RegisterDto.cs",
@@ -1399,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 108,
               "Title": "OtpDto.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Common\\Dtos\\OtpDto.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Common\\Dtos\\OtpDto.cs",
@@ -1412,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "page-step-signin.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-step-signin.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-step-signin.html",
@@ -1425,7 +1459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "page-signin.html",
               "DocumentMoniker": "D:\\Project\\unic\\page-signin.html",
               "RelativeDocumentMoniker": "..\\..\\unic\\page-signin.html",
@@ -1438,7 +1472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 91,
               "Title": "20250816131614_init.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Migrations\\20250816131614_init.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Migrations\\20250816131614_init.cs",
@@ -1451,7 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "WalletTransaction.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\WalletTransaction.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\WalletTransaction.cs",
@@ -1464,7 +1498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "PaymentGatewayLog.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\NoCast.App\\Models\\PaymentGatewayLog.cs",
               "RelativeDocumentMoniker": "NoCast.App\\Models\\PaymentGatewayLog.cs",
@@ -1477,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "4_5776119263748168608.json",
               "DocumentMoniker": "C:\\Users\\m.esmaeili\\Downloads\\4_5776119263748168608.json",
               "ToolTip": "C:\\Users\\m.esmaeili\\Downloads\\4_5776119263748168608.json",
@@ -1488,7 +1522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "InvoiceItem.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\InvoiceItem.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\InvoiceItem.cs",
@@ -1501,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "Invoice.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\Invoice.cs",
@@ -1514,7 +1548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "Notification.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\Notification.cs",
@@ -1527,7 +1561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "TransactionStatus.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\TransactionStatus.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\TransactionStatus.cs",
@@ -1540,7 +1574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\Transaction.cs",
@@ -1553,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "ConsignmentStatus.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\ConsignmentStatus.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\ConsignmentStatus.cs",
@@ -1566,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "4_5776119263748168608 (1).json",
               "DocumentMoniker": "C:\\Users\\m.esmaeili\\Downloads\\4_5776119263748168608 (1).json",
               "ToolTip": "C:\\Users\\m.esmaeili\\Downloads\\4_5776119263748168608 (1).json",
@@ -1577,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "Consignment.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\Consignment.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\Consignment.cs",
@@ -1590,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\ProductImage.cs",
@@ -1603,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "ProductStatus.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\ProductStatus.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Common\\Enums\\ProductStatus.cs",
@@ -1616,7 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Models\\Product.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Models\\Product.cs",
@@ -1629,7 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "BaseCustomerController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Customer\\BaseCustomerController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Customer\\BaseCustomerController.cs",
@@ -1642,7 +1676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "BaseAdminController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Admin\\BaseAdminController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Admin\\BaseAdminController.cs",
@@ -1655,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\BaseController.cs",
@@ -1668,7 +1702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Common\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Common\\Dtos\\LoginDto.cs",
@@ -1681,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\AuthController.cs",
@@ -1694,7 +1728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "AppRoles.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Common\\Statics\\AppRoles.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Common\\Statics\\AppRoles.cs",
@@ -1707,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 85,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Program.cs",
@@ -1720,7 +1754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 86,
               "Title": "SimpleController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Admin\\SimpleController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Admin\\SimpleController.cs",
@@ -1733,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 87,
               "Title": "BaseProviderController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Provider\\BaseProviderController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Provider\\BaseProviderController.cs",
@@ -1746,7 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 88,
               "Title": "BaseSellerController.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Seller\\BaseSellerController.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Controllers\\Seller\\BaseSellerController.cs",
@@ -1759,7 +1793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 89,
               "Title": "IGenericService.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Contract\\Services\\IGenericService.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Contract\\Services\\IGenericService.cs",
@@ -1772,7 +1806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 90,
               "Title": "GenericService.cs",
               "DocumentMoniker": "D:\\Project\\PawnShop\\WebApi\\PawnShop.App\\Services\\GenericService.cs",
               "RelativeDocumentMoniker": "..\\..\\PawnShop\\WebApi\\PawnShop.App\\Services\\GenericService.cs",
@@ -1785,7 +1819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\WebApi\\CodeGenerator\\Program.cs",
               "RelativeDocumentMoniker": "CodeGenerator\\Program.cs",

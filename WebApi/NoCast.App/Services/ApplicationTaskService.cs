@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using AutoMapper;
+using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using NoCast.App.Common.Dtos;
@@ -7,6 +8,7 @@ using NoCast.App.Common.Exception;
 using NoCast.App.Common.Statics;
 using NoCast.App.Contract.Services;
 using NoCast.App.Data;
+using NoCast.App.Dtos;
 using NoCast.App.Migrations;
 using NoCast.App.Models;
 
@@ -24,6 +26,19 @@ namespace NoCast.App.Services
             _cache = cache;
         }
 
+        public async Task<List<ServiceRequestDto>> ListTaskAsync(Guid OwnerId)
+        {
+            return _mapper.Map<List<ServiceRequestDto>>(await _context.ServiceRequests.Where(x=>x.UserId==OwnerId).ToListAsync());
+        }
+
+        public async Task<TaskExecutionDto> ListExecutionTaskAsync(Guid TaskId,Guid OwnerId)
+        {
+            var ownerTask = _context.ServiceRequests.FirstOrDefault(x => x.Id == TaskId);
+            if (ownerTask == null || ownerTask.UserId != OwnerId)
+                throw new BusinessException("Task not found.", 404);
+            var executer = _mapper.Map<List<ServiceExecutionDto>>(await _context.ServiceExecutions.Where(x => x.ServiceRequestId == TaskId).ToListAsync());
+            return new() { Id= ownerTask.Id, Reward = ownerTask.Price ,Executers = executer };
+        }
         public async Task<TaskDto> CreateTaskAsync(TaskDto request)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
@@ -215,6 +230,49 @@ namespace NoCast.App.Services
             var tasks = await _context.ServiceRequests.Where(t => t.Status == ServiceRequestStatus.InProgress)
                 .ToDictionaryAsync(x => x.Id, y => new TaskSessionDto() { Price = y.Price, Title = y.Title, Url = y.TargetPostUrl });
             _cache.Set(AppSettings.AllTasks, tasks);
+        }
+
+        public async Task<bool> TaskCancelAsync(TaskDoDto request)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                var serviceRequest = _context.ServiceRequests.FirstOrDefault(x => x.Id == request.TaskId);
+
+                if (serviceRequest == null)
+                    throw new BusinessException("Task not found or InActive.", 404);
+                if (serviceRequest.UserId == request.WorkerId)
+                    throw new BusinessException("Task not Permit For Yourself.", 400);
+
+                var execution = _context.ServiceExecutions.FirstOrDefault(x => x.ServiceRequestId == serviceRequest.Id && x.ExecutorUserId == request.WorkerId);
+                if (execution == null || execution.Status != ExecutionStatus.WaitingForApproval)
+                    throw new BusinessException("Execution Not Active.", 404);
+
+                var wallet = _context.Wallets.FirstOrDefault(x => x.Id == serviceRequest.UserId);
+                serviceRequest.CountDo--;
+
+
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                if (_cache.TryGetValue(request.WorkerId, out UserSessionDto userWorker))
+                {
+                    userWorker.DoneTask--;
+                    _cache.Set(request.WorkerId, userWorker, TimeSpan.FromMinutes(30));
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                throw;
+            }
+        }
+
+        public Task<List<ServiceExecutionDto>> ListExecutionTaskAsync(Guid TaskId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

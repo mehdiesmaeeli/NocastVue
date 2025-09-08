@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NoCast.App.Common.Dtos;
@@ -31,6 +32,7 @@ namespace NoCast.App.Controllers.Customer
         [HttpGet("list")]
         public async Task<IActionResult> GetList()
         {
+            var res= await _applicationTaskService.ListTaskAsync(UserId);
             var list = new[]
             {
                 new { id = 1, name = "علی" ,type=0 },
@@ -40,9 +42,10 @@ namespace NoCast.App.Controllers.Customer
             return ApiOk(list, "Success");
         }
 
-        [HttpGet("activity")]
-        public async Task<IActionResult> GetActivity()
+        [HttpGet("activity/{taskId}")]
+        public async Task<IActionResult> GetActivity(Guid taskId)
         {
+            var res = await _applicationTaskService.ListExecutionTaskAsync(taskId, UserId);
             var list = new[]
             {
                 new { id = 1, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
@@ -81,6 +84,14 @@ namespace NoCast.App.Controllers.Customer
 
         [HttpPost("approve")]
         public async Task<IActionResult> Approve([FromBody] TaskApproveDto modelDto)
+        {
+            modelDto.UserId = UserId;
+            var result = await _applicationTaskService.TaskApproveAsync(modelDto);
+            return ApiOk(result, "Success");
+        }
+
+        [HttpPost("cancel")]
+        public async Task<IActionResult> Cancel([FromBody] TaskApproveDto modelDto)
         {
             modelDto.UserId = UserId;
             var result = await _applicationTaskService.TaskApproveAsync(modelDto);

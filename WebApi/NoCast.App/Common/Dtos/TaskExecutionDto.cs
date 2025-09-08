@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace NoCast.App.Dtos
 {
-    public class ServiceExecutionDto
+    public class TaskExecutionDto
     {
         public Guid Id { get; set; }
         public Guid ServiceRequestId { get; set; }
@@ -14,5 +14,6 @@ namespace NoCast.App.Dtos
         public List<string> SubmittedAt { get; set; }
         public List<string> ApprovedAt { get; set; }
         public decimal Reward { get; set; }
+        public List<ServiceExecutionDto> Executers { get; set; }
     }
 }
