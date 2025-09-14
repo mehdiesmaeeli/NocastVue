@@ -10,7 +10,8 @@
         public DateTime? SubmittedAt { get; set; }
         public DateTime? ApprovedAt { get; set; }
         public decimal Reward { get; set; } // پس از تایید به کیف پول انجام‌دهنده واریز می‌شود
-        public  ServiceRequest ServiceRequest { get; set; }
+        public ServiceRequest ServiceRequest { get; set; }
+        public ApplicationUser ExecutorUser { get; set; }
     }
 
     public enum ExecutionStatus

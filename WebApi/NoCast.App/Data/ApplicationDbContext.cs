@@ -33,6 +33,20 @@ namespace NoCast.App.Data
             .HasForeignKey<Wallet>(w => w.Id)
             .OnDelete(DeleteBehavior.Cascade);
 
+            builder.Entity<ServiceRequest>()
+                .HasOne(x => x.TargetSocialAccount)
+                .WithMany(x => x.ServiceRequests)
+                .HasForeignKey(x => x.TargetSocialAccountId).OnDelete(DeleteBehavior.Restrict); ;
+
+            builder.Entity<ServiceExecution>()
+                .HasOne(x => x.ExecutorUser)
+                .WithMany(x => x.Executions)
+                .HasForeignKey(x => x.ExecutorUserId).OnDelete(DeleteBehavior.Restrict); ;
+
+            builder.Entity<SocialAccount>()
+                .HasOne(x => x.User)
+                .WithMany(x => x.SocialAccounts)
+                .HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<ChatMessage>(entity =>
             {

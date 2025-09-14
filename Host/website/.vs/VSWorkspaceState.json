@@ -1,15 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\assets\\css",
-    "\\composables",
-    "\\constants",
-    "\\layouts",
     "\\pages",
     "\\public",
-    "\\public\\css"
+    "\\public\\vendors",
+    "\\public\\vendors\\swiper"
   ],
-  "SelectedNode": "\\layouts\\auth.vue",
+  "SelectedNode": "\\pages\\forget-password.vue",
   "PreviewInSolutionExplorer": false
 }

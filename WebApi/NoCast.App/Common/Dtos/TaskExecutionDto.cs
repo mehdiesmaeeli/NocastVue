@@ -14,6 +14,6 @@ namespace NoCast.App.Dtos
         public DateTime SubmittedAt { get; set; }
         public DateTime ApprovedAt { get; set; }
         public decimal Reward { get; set; }
-        public List<ServiceExecutionDto> Executers { get; set; }
+        public Dictionary<string, List<ServiceExecutionDto>> Executers { get; set; }
     }
 }

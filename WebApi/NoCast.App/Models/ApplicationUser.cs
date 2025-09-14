@@ -10,6 +10,7 @@ namespace NoCast.App.Models
         public bool IsActive { get; set; } = true;
         public ICollection<ServiceRequest> Requests { get; set; }
         public ICollection<ServiceExecution> Executions { get; set; }
+        public ICollection<SocialAccount> SocialAccounts { get; set; }
     }
 
     public class ApplicationRole : IdentityRole<Guid> {

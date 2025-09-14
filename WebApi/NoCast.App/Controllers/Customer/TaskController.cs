@@ -33,41 +33,42 @@ namespace NoCast.App.Controllers.Customer
         public async Task<IActionResult> GetList()
         {
             var res= await _applicationTaskService.ListTaskAsync(UserId);
-            var list = new[]
-            {
-                new { id = 1, name = "علی" ,type=0 },
-                new { id = 2, name = "رضا" ,type=1},
-                new { id = 3, name = "سارا",type=2}
-            };
-            return ApiOk(list, "Success");
+            return ApiOk(res, "Success");
+        }
+
+        [HttpGet("remain")]
+        public async Task<IActionResult> GetRemain()
+        {
+            var res = await _applicationTaskService.RemainTaskAsync(UserId);
+            return ApiOk(res, "Success");
         }
 
         [HttpGet("activity/{taskId}")]
         public async Task<IActionResult> GetActivity(Guid taskId)
         {
             var res = await _applicationTaskService.ListExecutionTaskAsync(taskId, UserId);
-            var list = new[]
-            {
-                new { id = 1, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-                new { id = 12, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=true },
-                new { id = 13, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-                new { id = 14, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-                new { id = 21, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-                new { id = 22, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=true},
-                new { id = 23, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-                new { id = 24, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-                new { id = 31, name = "سارا", date = DateTime.Now , isPay=true},
-                new { id = 32, name = "سارا", date = DateTime.Now , isPay=true},
-                new { id = 33, name = "سارا", date = DateTime.Now , isPay=false},
-                new { id = 34, name = "سارا", date = DateTime.Now , isPay=true},
-                new { id = 35, name = "سارا", date = DateTime.Now , isPay=true},
-            };
-            var result = new { id = 1, name = "tetst dfsdf", list = list.OrderByDescending(x=> x.date)
-                .GroupBy(x=> x.date.ToRelativeDate())
-                .ToDictionary(
-                g => g.Key, 
-                g => g.Select(x=> new {x.id ,x.name,x.isPay, time = x.date.ToRelativeTime() }).ToList())};
-            return ApiOk(result, "Success");
+            //var list = new[]
+            //{
+            //    new { id = 1, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
+            //    new { id = 12, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=true },
+            //    new { id = 13, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
+            //    new { id = 14, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
+            //    new { id = 21, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
+            //    new { id = 22, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=true},
+            //    new { id = 23, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
+            //    new { id = 24, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
+            //    new { id = 31, name = "سارا", date = DateTime.Now , isPay=true},
+            //    new { id = 32, name = "سارا", date = DateTime.Now , isPay=true},
+            //    new { id = 33, name = "سارا", date = DateTime.Now , isPay=false},
+            //    new { id = 34, name = "سارا", date = DateTime.Now , isPay=true},
+            //    new { id = 35, name = "سارا", date = DateTime.Now , isPay=true},
+            //};
+            //var result = new { id = 1, name = "tetst dfsdf", list = list.OrderByDescending(x=> x.date)
+            //    .GroupBy(x=> x.date.ToRelativeDate())
+            //    .ToDictionary(
+            //    g => g.Key, 
+            //    g => g.Select(x=> new {x.id ,x.name,x.isPay, time = x.date.ToRelativeTime() }).ToList())};
+            return ApiOk(res, "Success");
         }
 
         [HttpPost]

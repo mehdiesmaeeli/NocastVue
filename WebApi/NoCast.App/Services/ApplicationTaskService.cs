@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using AutoMapper;
 using Azure.Core;
 using Microsoft.EntityFrameworkCore;
@@ -36,8 +37,20 @@ namespace NoCast.App.Services
             var ownerTask = _context.ServiceRequests.FirstOrDefault(x => x.Id == TaskId);
             if (ownerTask == null || ownerTask.UserId != OwnerId)
                 throw new BusinessException("Task not found.", 404);
-            var executer = _mapper.Map<List<ServiceExecutionDto>>(await _context.ServiceExecutions.Where(x => x.ServiceRequestId == TaskId).ToListAsync());
-            return new() { Id= ownerTask.Id, Reward = ownerTask.Price ,Executers = executer };
+            var executer = await _context.ServiceExecutions.Where(x => x.ServiceRequestId == TaskId)
+                .Include(x => x.ExecutorUser).ThenInclude(t => t.SocialAccounts)
+                .Include(x => x.ServiceRequest).ThenInclude(t => t.TargetSocialAccount)
+                .ToListAsync();
+            return new()
+            {
+                Id = ownerTask.Id,
+                Reward = ownerTask.Price,
+                Executers = executer.OrderByDescending(x => x.SubmittedAt)
+                .GroupBy(x => x.SubmittedAt.Value.ToRelativeDate())
+                .ToDictionary(
+                g => g.Key,
+                g => g.Select(x => new ServiceExecutionDto { Id = x.Id, ExecutorUserId = x.ExecutorUserId, ExecuterSeed = x.ExecutorUser.AvatarPath, ExecuterAccount = x.ExecutorUser.SocialAccounts.FirstOrDefault(s => s.Platform == x.ServiceRequest.TargetSocialAccount.Platform).ProfileName, Status = (int)x.Status, SubmittedAt = x.SubmittedAt.Value.ToRelativeTime() }).ToList())
+            };
         }
         public async Task<TaskDto> CreateTaskAsync(TaskDto request)
         {
@@ -53,8 +66,6 @@ namespace NoCast.App.Services
 
                 wallet.TotalBalance -= totalAmount;
                 wallet.BlockedAmount += totalAmount;
-
-
 
                 var requestService = _mapper.Map<ServiceRequest>(request.ServiceRequest);
                 requestService.Id = Guid.NewGuid();
@@ -270,9 +281,19 @@ namespace NoCast.App.Services
             }
         }
 
-        public Task<List<ServiceExecutionDto>> ListExecutionTaskAsync(Guid TaskId)
+
+        public async Task<List<Guid>> RemainTaskAsync(Guid UserId)
         {
-            throw new NotImplementedException();
+            return await(
+                 from t in _context.ServiceRequests
+                 join udt in _context.ServiceExecutions
+                     on new { t.Id, UserId } equals new { Id = udt.ServiceRequestId, UserId = udt.ExecutorUserId }
+                     into gj
+                 from sub in gj.DefaultIfEmpty()
+                 where sub == null && t.UserId != UserId
+                 orderby Guid.NewGuid()
+                 select t.Id
+             ).Take(20).ToListAsync();
         }
     }
 }

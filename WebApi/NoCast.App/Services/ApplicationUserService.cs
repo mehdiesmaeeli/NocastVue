@@ -42,17 +42,7 @@ namespace NoCast.App.Services
             var tomorrow = today.AddDays(1);
             var wallet = _context.Wallets.FirstOrDefault(x => x.Id == UserId);
             var todayCnt = await _context.ServiceExecutions.CountAsync(x => x.ExecutorUserId == UserId && x.SubmittedAt >= today && x.SubmittedAt < tomorrow);
-            var remain = await (
-                from t in _context.ServiceRequests
-                join udt in _context.ServiceExecutions
-                    on new { t.Id, UserId } equals new { Id = udt.ServiceRequestId, UserId = udt.ExecutorUserId }
-                    into gj
-                from sub in gj.DefaultIfEmpty()
-                where sub == null && t.UserId != UserId
-                orderby Guid.NewGuid()
-                select t.Id
-            ).Take(20).ToListAsync();
-            return new UserSessionDto() { Balance = wallet.TotalBalance, Block = wallet.BlockedAmount, DoneTask = (byte)todayCnt, RemainingTasks = remain };
+            return new UserSessionDto() { Balance = wallet.TotalBalance, Block = wallet.BlockedAmount, DoneTask = (byte)todayCnt };
         }
 
         public async Task<bool> BanUserAsync(Guid UserId)

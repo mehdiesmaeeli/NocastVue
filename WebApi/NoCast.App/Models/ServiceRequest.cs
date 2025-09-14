@@ -15,6 +15,7 @@
         public int CountDo { get; set; }
         public bool IsDefault { get; set; }
         public ICollection<ServiceExecution> Executions { get; set; }
+        public SocialAccount TargetSocialAccount { get; set; }
     }
 
     public enum ServiceRequestStatus : byte

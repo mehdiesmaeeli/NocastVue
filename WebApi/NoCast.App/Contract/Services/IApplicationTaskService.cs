@@ -12,5 +12,6 @@ namespace NoCast.App.Contract.Services
         Task<TaskApproveDto> TaskApproveAsync(TaskApproveDto request);
         Task<bool> TaskCancelAsync(TaskDoDto request);
         Task InitTaskAsync();
+        Task<List<Guid>> RemainTaskAsync(Guid UserId);
     }
 }

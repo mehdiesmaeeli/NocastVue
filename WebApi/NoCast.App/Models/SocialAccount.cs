@@ -11,6 +11,8 @@
         public bool IsVerified { get; set; } // شرایط تایید مثل تعداد فالوور یا بررسی دستی
 
         public DateTime CreatedAt { get; set; }
+        public ApplicationUser User { get; set; }
+        public ICollection<ServiceRequest> ServiceRequests { get; set; }
     }
 
     public enum SocialPlatform
