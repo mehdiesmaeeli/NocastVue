@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Project\\NoCastVue\\Host\\website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\composables\\useDataRemainTask.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composables\\useDataRemainTask.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\activity-list.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:composables\\useApi.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +31,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\login.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\randomavatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-create.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-socialmedia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\user-set-socialmedia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-password.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\user-set-password.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\activate.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-avatar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-edit.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-edit.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\task-activity.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\NoCastVue\\Host\\website\\layouts\\simple.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -167,7 +175,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -180,6 +188,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "useApi.ts",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\composables\\useApi.ts",
+              "RelativeDocumentMoniker": "composables\\useApi.ts",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\composables\\useApi.ts",
+              "RelativeToolTip": "composables\\useApi.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-14T07:43:14.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "useDataRemainTask.js",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\composables\\useDataRemainTask.js",
+              "RelativeDocumentMoniker": "composables\\useDataRemainTask.js",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\composables\\useDataRemainTask.js",
+              "RelativeToolTip": "composables\\useDataRemainTask.js",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwEMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-14T07:41:02.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "task-create.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-create.vue",
               "RelativeDocumentMoniker": "pages\\task-create.vue",
@@ -187,51 +221,50 @@
               "RelativeToolTip": "pages\\task-create.vue",
               "ViewState": "AgIAAEQAAAAAAAAAAAAewFcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-09-03T12:01:25.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T12:01:25.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "login.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\login.vue",
               "RelativeDocumentMoniker": "pages\\login.vue",
               "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\login.vue",
               "RelativeToolTip": "pages\\login.vue",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-08-31T10:48:53.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "register.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue",
               "RelativeDocumentMoniker": "pages\\register.vue",
               "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\register.vue",
               "RelativeToolTip": "pages\\register.vue",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-08-31T10:02:59.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "activity-list.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue",
               "RelativeDocumentMoniker": "pages\\activity-list.vue",
               "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activity-list.vue",
               "RelativeToolTip": "pages\\activity-list.vue",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2025-08-17T13:08:27.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "user-set-socialmedia.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-socialmedia.vue",
               "RelativeDocumentMoniker": "pages\\user-set-socialmedia.vue",
@@ -239,12 +272,11 @@
               "RelativeToolTip": "pages\\user-set-socialmedia.vue",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-30T12:47:09.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T12:47:09.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "user-set-password.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-password.vue",
               "RelativeDocumentMoniker": "pages\\user-set-password.vue",
@@ -252,12 +284,11 @@
               "RelativeToolTip": "pages\\user-set-password.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-18T14:49:14.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T14:49:14.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "user-set-avatar.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\user-set-avatar.vue",
               "RelativeDocumentMoniker": "pages\\user-set-avatar.vue",
@@ -265,12 +296,11 @@
               "RelativeToolTip": "pages\\user-set-avatar.vue",
               "ViewState": "AgIAACwAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-18T12:22:01.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T12:22:01.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "activate.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\activate.vue",
               "RelativeDocumentMoniker": "pages\\activate.vue",
@@ -283,7 +313,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "task-activity.vue",
+              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
+              "RelativeDocumentMoniker": "pages\\task-activity.vue",
+              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
+              "RelativeToolTip": "pages\\task-activity.vue",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-08-17T12:47:47.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "randomavatar.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\randomavatar.vue",
               "RelativeDocumentMoniker": "pages\\randomavatar.vue",
@@ -291,12 +334,11 @@
               "RelativeToolTip": "pages\\randomavatar.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-17T10:31:29.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T10:31:29.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "task-list.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-list.vue",
               "RelativeDocumentMoniker": "pages\\task-list.vue",
@@ -304,12 +346,11 @@
               "RelativeToolTip": "pages\\task-list.vue",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-17T12:40:06.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T12:40:06.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "task-edit.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-edit.vue",
               "RelativeDocumentMoniker": "pages\\task-edit.vue",
@@ -317,25 +358,11 @@
               "RelativeToolTip": "pages\\task-edit.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-31T08:39:49.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T08:39:49.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "task-activity.vue",
-              "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
-              "RelativeDocumentMoniker": "pages\\task-activity.vue",
-              "ToolTip": "D:\\Project\\NoCastVue\\Host\\website\\pages\\task-activity.vue",
-              "RelativeToolTip": "pages\\task-activity.vue",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-17T12:47:47.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "simple.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\simple.vue",
               "RelativeDocumentMoniker": "layouts\\simple.vue",
@@ -343,12 +370,11 @@
               "RelativeToolTip": "layouts\\simple.vue",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-17T12:25:14.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T12:25:14.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "index.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\index.vue",
               "RelativeDocumentMoniker": "pages\\index.vue",
@@ -356,12 +382,11 @@
               "RelativeToolTip": "pages\\index.vue",
               "ViewState": "AgIAAEYAAAAAAAAAAAAAAFsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-07-29T09:08:11.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T09:08:11.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "default.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\default.vue",
               "RelativeDocumentMoniker": "layouts\\default.vue",
@@ -369,12 +394,11 @@
               "RelativeToolTip": "layouts\\default.vue",
               "ViewState": "AgIAAE8FAAAAAAAAAAAhwGEFAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2025-08-11T12:09:14.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T12:09:14.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "auth.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\layouts\\auth.vue",
               "RelativeDocumentMoniker": "layouts\\auth.vue",
@@ -386,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Chat.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\Chat.vue",
               "RelativeDocumentMoniker": "components\\Chat.vue",
@@ -398,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "nuxt.config.ts",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\nuxt.config.ts",
               "RelativeDocumentMoniker": "nuxt.config.ts",
@@ -406,12 +430,11 @@
               "RelativeToolTip": "nuxt.config.ts",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-07-29T09:08:57.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T09:08:57.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "chat.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\chat.vue",
               "RelativeDocumentMoniker": "pages\\chat.vue",
@@ -423,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "list.js",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\constants\\list.js",
               "RelativeDocumentMoniker": "constants\\list.js",
@@ -435,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ChatInput.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatInput.vue",
               "RelativeDocumentMoniker": "components\\ChatInput.vue",
@@ -447,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "dashbord.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\dashbord.vue",
               "RelativeDocumentMoniker": "pages\\dashbord.vue",
@@ -459,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "app.config.mjs",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\start\\.nuxt\\app.config.mjs",
               "RelativeDocumentMoniker": "start\\.nuxt\\app.config.mjs",
@@ -471,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "LoginForm.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\LoginForm.vue",
               "RelativeDocumentMoniker": "components\\LoginForm.vue",
@@ -483,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "auth.ts",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\middleware\\auth.ts",
               "RelativeDocumentMoniker": "middleware\\auth.ts",
@@ -495,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": ".env",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -507,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ChatHeader.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatHeader.vue",
               "RelativeDocumentMoniker": "components\\ChatHeader.vue",
@@ -519,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AvatarOption.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\AvatarOption.vue",
               "RelativeDocumentMoniker": "components\\AvatarOption.vue",
@@ -531,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "testavatar.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\pages\\testavatar.vue",
               "RelativeDocumentMoniker": "pages\\testavatar.vue",
@@ -543,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ChatMessages.vue",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\components\\ChatMessages.vue",
               "RelativeDocumentMoniker": "components\\ChatMessages.vue",
@@ -555,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "chat.css",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\pages\\chat.css",
               "RelativeDocumentMoniker": "assets\\css\\pages\\chat.css",
@@ -567,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "signalR.js",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\services\\signalR.js",
               "RelativeDocumentMoniker": "services\\signalR.js",
@@ -579,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "tailwind.css",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\tailwind.css",
               "RelativeDocumentMoniker": "assets\\css\\tailwind.css",
@@ -591,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "tsconfig.json",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\tsconfig.json",
               "RelativeDocumentMoniker": "tsconfig.json",
@@ -603,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "package-lock.json",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\package-lock.json",
               "RelativeDocumentMoniker": "package-lock.json",
@@ -615,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\latest-activity\\index.tsx",
@@ -627,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\index.tsx",
@@ -639,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "default.css",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\assets\\css\\layouts\\default.css",
               "RelativeDocumentMoniker": "assets\\css\\layouts\\default.css",
@@ -651,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "index.tsx",
               "DocumentMoniker": "D:\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Code\\Pardazesh\\Charisma.Ins\\Src\\Insurance.Front\\src\\pages\\claims\\new\\index.tsx",
@@ -663,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "package.json",
               "DocumentMoniker": "D:\\Project\\NoCastVue\\Host\\website\\package.json",
               "RelativeDocumentMoniker": "package.json",

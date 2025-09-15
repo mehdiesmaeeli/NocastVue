@@ -238,8 +238,8 @@ namespace NoCast.App.Services
 
         public async Task InitTaskAsync()
         {
-            var tasks = await _context.ServiceRequests.Where(t => t.Status == ServiceRequestStatus.InProgress)
-                .ToDictionaryAsync(x => x.Id, y => new TaskSessionDto() { Price = y.Price, Title = y.Title, Url = y.TargetPostUrl });
+            var tasks = await _context.ServiceRequests.Where(t => t.Status == ServiceRequestStatus.InProgress).Include(c=> c.TargetSocialAccount).ThenInclude(t=> t.User)
+                .ToDictionaryAsync(x => x.Id, y => new TaskSessionDto() { Price = y.Price, Title = y.Title, Url = y.TargetPostUrl , UserAvatar = y.TargetSocialAccount.User.AvatarPath , UserName = y.TargetSocialAccount.ProfileName });
             _cache.Set(AppSettings.AllTasks, tasks);
         }
 
@@ -282,7 +282,7 @@ namespace NoCast.App.Services
         }
 
 
-        public async Task<List<Guid>> RemainTaskAsync(Guid UserId)
+        public async Task<List<RemainDto>> RemainTaskAsync(Guid UserId)
         {
             return await(
                  from t in _context.ServiceRequests
@@ -292,8 +292,25 @@ namespace NoCast.App.Services
                  from sub in gj.DefaultIfEmpty()
                  where sub == null && t.UserId != UserId
                  orderby Guid.NewGuid()
-                 select t.Id
+                 select new RemainDto { Id = t.Id , Do = false , Seen = false }
              ).Take(20).ToListAsync();
+        }
+
+        public async Task<TaskDetailDto?> GetDetailAsync(Guid id)
+        {
+            if (_cache.TryGetValue(AppSettings.AllTasks, out Dictionary<Guid,TaskSessionDto> tasks))
+            {
+                if (tasks.TryGetValue(id, out TaskSessionDto detail))
+                {
+                    return new() { Id = id, Detail = detail };
+                }
+                else
+                    throw new BusinessException("Task Not Found.", 401);
+            }
+            else
+            {
+                return default;
+            }
         }
     }
 }

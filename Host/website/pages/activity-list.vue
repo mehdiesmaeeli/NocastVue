@@ -1,6 +1,6 @@
 ﻿<template>
     <div id="wrapper">
-        <div id="content">
+        <div  v-if="currentDetail" id="content">
             <header class="default heade-sticky">
                 <div class="un-title-page go-back">
                     <a @click="$router.back()" class="icon"><i class="ri-arrow-drop-right-line"></i></a>
@@ -9,7 +9,7 @@
                     <div class="btn-like-click shape-box">
                         <div class="btnLike">
                             <input type="checkbox">
-                            <span class="count-likes">{{task.todayCnt}}/{{task.giftCnt}}</span>
+                            <span class="count-likes">{{currentDetail.todayCnt}}/{{currentDetail.giftCnt}}</span>
                             <div class="icon-inside">
                                 <i class="ri-gift-line"></i>
                             </div>
@@ -23,14 +23,14 @@
                 <div class="head">
                     <div class="title-card-text d-flex align-items-center justify-content-between">
                         <div class="text">
-                            <h1>{{task.title}}</h1>
+                            <h1>{{currentDetail.detail.title}}</h1>
                         </div>
                         <span class="btn-xs-size bg-pink text-white rounded-pill">ورزشی</span>
                     </div>
                     <div class="txt-price-coundown d-flex justify-content-between">
                         <div class="price">
                             <h2>درآمد</h2>
-                            <p>{{task.price}}<span class="size-16">NoC</span></p>
+                            <p>{{currentDetail.detail.price}}<span class="size-16">NoC</span></p>
                         </div>
                     </div>
                 </div>
@@ -47,13 +47,13 @@
                                         <a href="page-creator-profile.html" class="item-user-img visited">
                                             <div class="wrapper-image">
                                                 <picture>
-                                                    <img class="avt-img" :src=dataUri alt="">
+                                                    <img class="avt-img" :src=currentDetail.avatar alt="">
                                                 </picture>
                                                 <div class="icon"><i class="ri-checkbox-circle-fill"></i></div>
                                             </div>
                                             <div class="txt-user">
                                                 <h5>سازنده</h5>
-                                                <p>شلی ویلا</p>
+                                                <p>{{currentDetail.detail.userName}}</p>
                                             </div>
                                         </a>
                                     </div>
@@ -66,10 +66,10 @@
                 <div class="footer">
                     <div class="content">
                         <div class="links-item-pages">
-                            <a href="page-collectibles-details.html" class="icon-box prev"><i class="ri-arrow-right-line"></i></a>
-                            <a href="page-collectibles-details.html" class="icon-box next"><i class="ri-arrow-left-line"></i></a>
+                            <a @click="previousItem" class="icon-box prev"><i class="ri-arrow-right-line"></i></a>
+                            <a @click="nextItem" class="icon-box next"><i class="ri-arrow-left-line"></i></a>
                         </div>
-                        <a href="{{task.url}}" class="btn btn-bid-items" target="_blank">
+                        <a href="{{currentDetail.detail.url}}" class="btn btn-bid-items" target="_blank">
                             <p>اقدام میکنم</p>
                             <div class="ico"><i class="ri-arrow-drop-left-line"></i></div>
                         </a>
@@ -86,12 +86,7 @@
         layout: false,
     });
     import { ref, onMounted } from 'vue'
-    import { useApi } from '@/composables/useApi';
-
-    import { createAvatar } from '@dicebear/core'
-    import { micah } from '@dicebear/collection'
-
-    const { call } = useApi();
+    import { useDataRemainTask } from "@/composables/useDataRemainTask";
     const task = ref({
         todayCnt : 0,
         giftCnt: 0,
@@ -100,21 +95,19 @@
         url:''
     });
     const dataUri = ref('')
+    
+
+    const { data, currentDetail, currentIndex, nextItem, previousItem, markAsDo, cancelItem, reload } = useDataRemainTask(60);
+
     onMounted(async () => {
-        const seed = Math.random().toString(36).substring(2, 10)
-        const svg = createAvatar(micah, {
-            seed,
-            size: 180
-        }).toString();
+        await reload();
+        
 
-        const svgBase64 = btoa(unescape(encodeURIComponent(svg))); // تبدیل به base64
-        dataUri.value = `data:image/svg+xml;base64,${svgBase64}`;
-
-        const { resp, error } = await call('/task', {
-            method: 'GET'
-        })
-        if (!error && resp?.data) {
-            task.value = resp?.data
-        }
+        //const { resp, error } = await call('/task', {
+        //    method: 'GET'
+        //})
+        //if (!error && resp?.data) {
+        //    task.value = resp?.data
+        //}
     })
 </script>

@@ -24,7 +24,7 @@ namespace NoCast.App.Services
         }
         public async Task<UserSessionDto> CreateSessionAsync(Guid UserId)
         {
-            var result = await FillRemainTask(UserId);
+            var result = await FillWallet(UserId);
             _cache.Set(UserId, result, TimeSpan.FromMinutes(30));
             return result;
         }
@@ -36,7 +36,7 @@ namespace NoCast.App.Services
             else
                 return userSession;
         }
-        private async Task<UserSessionDto> FillRemainTask(Guid UserId)
+        private async Task<UserSessionDto> FillWallet(Guid UserId)
         {
             var today = DateTime.Today;
             var tomorrow = today.AddDays(1);

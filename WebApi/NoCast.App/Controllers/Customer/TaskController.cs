@@ -16,17 +16,23 @@ namespace NoCast.App.Controllers.Customer
     {
         private readonly IServiceRequestService _serviceRequestService;
         private readonly IApplicationTaskService _applicationTaskService;
+        private readonly IApplicationUserService _applicationUserService;
 
-        public TaskController(IServiceRequestService serviceRequestService, IApplicationTaskService applicationTaskService)
+        public TaskController(IServiceRequestService serviceRequestService, IApplicationTaskService applicationTaskService, IApplicationUserService applicationUserService)
         {
             _serviceRequestService = serviceRequestService;
             _applicationTaskService = applicationTaskService;
+            _applicationUserService = applicationUserService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid id)
         {
-            return ApiOk(new { id = 1, todayCnt = 1, giftCnt = 99 , title = "asdasdasd" , url = "/asd/asd" , price = 1 }, "Success");
+            var sessionUser = await _applicationUserService.GetSessionAsync(UserId);
+            var detail = await _applicationTaskService.GetDetailAsync(id);
+            detail.TodayCnt = sessionUser.DoneTask;
+            detail.GiftCnt = 99;
+            return ApiOk(detail, "Success");
         }
 
         [HttpGet("list")]
@@ -39,36 +45,15 @@ namespace NoCast.App.Controllers.Customer
         [HttpGet("remain")]
         public async Task<IActionResult> GetRemain()
         {
-            var res = await _applicationTaskService.RemainTaskAsync(UserId);
-            return ApiOk(res, "Success");
+            var result = await _applicationTaskService.RemainTaskAsync(UserId);
+            return ApiOk(result, "Success");
         }
 
         [HttpGet("activity/{taskId}")]
         public async Task<IActionResult> GetActivity(Guid taskId)
         {
-            var res = await _applicationTaskService.ListExecutionTaskAsync(taskId, UserId);
-            //var list = new[]
-            //{
-            //    new { id = 1, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-            //    new { id = 12, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=true },
-            //    new { id = 13, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-            //    new { id = 14, name = "علی" , date = DateTime.Now.AddDays(-2) , isPay=false },
-            //    new { id = 21, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-            //    new { id = 22, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=true},
-            //    new { id = 23, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-            //    new { id = 24, name = "رضا" , date = DateTime.Now.AddDays(-32) , isPay=false},
-            //    new { id = 31, name = "سارا", date = DateTime.Now , isPay=true},
-            //    new { id = 32, name = "سارا", date = DateTime.Now , isPay=true},
-            //    new { id = 33, name = "سارا", date = DateTime.Now , isPay=false},
-            //    new { id = 34, name = "سارا", date = DateTime.Now , isPay=true},
-            //    new { id = 35, name = "سارا", date = DateTime.Now , isPay=true},
-            //};
-            //var result = new { id = 1, name = "tetst dfsdf", list = list.OrderByDescending(x=> x.date)
-            //    .GroupBy(x=> x.date.ToRelativeDate())
-            //    .ToDictionary(
-            //    g => g.Key, 
-            //    g => g.Select(x=> new {x.id ,x.name,x.isPay, time = x.date.ToRelativeTime() }).ToList())};
-            return ApiOk(res, "Success");
+            var result = await _applicationTaskService.ListExecutionTaskAsync(taskId, UserId);
+            return ApiOk(result, "Success");
         }
 
         [HttpPost]
