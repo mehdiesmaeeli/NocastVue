@@ -9,7 +9,7 @@
                     <div class="btn-like-click shape-box">
                         <div class="btnLike">
                             <input type="checkbox">
-                            <span class="count-likes">{{currentDetail.todayCnt}}/{{currentDetail.giftCnt}}</span>
+                            <span class="count-likes">{{currentDetail.task.todayCnt}}/{{currentDetail.task.giftCnt}}</span>
                             <div class="icon-inside">
                                 <i class="ri-gift-line"></i>
                             </div>
@@ -23,14 +23,14 @@
                 <div class="head">
                     <div class="title-card-text d-flex align-items-center justify-content-between">
                         <div class="text">
-                            <h1>{{currentDetail.detail.title}}</h1>
+                            <h1>{{currentDetail.task.detail.title}}</h1>
                         </div>
                         <span class="btn-xs-size bg-pink text-white rounded-pill">ورزشی</span>
                     </div>
                     <div class="txt-price-coundown d-flex justify-content-between">
                         <div class="price">
                             <h2>درآمد</h2>
-                            <p>{{currentDetail.detail.price}}<span class="size-16">NoC</span></p>
+                            <p>{{currentDetail.task.detail.price}}<span class="size-16">NoC</span></p>
                         </div>
                     </div>
                 </div>
@@ -47,13 +47,13 @@
                                         <a href="page-creator-profile.html" class="item-user-img visited">
                                             <div class="wrapper-image">
                                                 <picture>
-                                                    <img class="avt-img" :src=currentDetail.avatar alt="">
+                                                    <img class="avt-img" :src=currentDetail.task.avatar alt="">
                                                 </picture>
                                                 <div class="icon"><i class="ri-checkbox-circle-fill"></i></div>
                                             </div>
                                             <div class="txt-user">
                                                 <h5>سازنده</h5>
-                                                <p>{{currentDetail.detail.userName}}</p>
+                                                <p>{{currentDetail.task.detail.userName}}</p>
                                             </div>
                                         </a>
                                     </div>
@@ -69,8 +69,12 @@
                             <a @click="previousItem" class="icon-box prev"><i class="ri-arrow-right-line"></i></a>
                             <a @click="nextItem" class="icon-box next"><i class="ri-arrow-left-line"></i></a>
                         </div>
-                        <a href="{{currentDetail.detail.url}}" class="btn btn-bid-items" target="_blank">
+                        <a  v-if="!currentDetail.do" @click="markAsDo(currentDetail.id)" class="btn btn-bid-items">
                             <p>اقدام میکنم</p>
+                            <div class="ico"><i class="ri-arrow-drop-left-line"></i></div>
+                        </a>
+                        <a v-else @click="cancelItem(currentDetail.id)" class="btn btn-bid-items bg-red" >
+                            <p>منصرف شدم</p>
                             <div class="ico"><i class="ri-arrow-drop-left-line"></i></div>
                         </a>
                     </div>

@@ -16,6 +16,7 @@ using NoCast.App.Services;
 using Microsoft.Extensions.DependencyInjection;
 using NoCast.App.Mappings;
 using NoCast.App.Contract.Services;
+using NoCast.App.Common.Dtos;
 
 var builder = WebApplication.CreateBuilder(args);
 // ??? ILogger
@@ -80,7 +81,8 @@ builder.Services.AddScoped<IApplicationUserService, ApplicationUserService>();
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
-
+builder.Services.AddSingleton(sp =>
+    builder.Configuration.Get<AppSettings>());
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

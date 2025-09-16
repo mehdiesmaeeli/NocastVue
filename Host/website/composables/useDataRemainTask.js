@@ -41,11 +41,12 @@ export function useDataRemainTask(ttlM = 30) {
             }).toString();
 
             const svgBase64 = btoa(unescape(encodeURIComponent(svg))); // تبدیل به base64
-            resp.data.avatar = `data:image/svg+xml;base64,${svgBase64}`;
 
-            currentDetail.value = resp.data;
             var item = cache.value.data.find(x => x.id == id);
-            item.detail = resp.data
+            item.task = resp.data;
+            item.task.avatar = `data:image/svg+xml;base64,${svgBase64}`;
+            item.seen = true;
+            currentDetail.value = item;
         }
     };
     const getData = () => {
@@ -55,12 +56,13 @@ export function useDataRemainTask(ttlM = 30) {
 
     const nextItem = async () => {
         if (!cache.value) return;
-        currentIndex.value++;
-        if (cache.value.data[currentIndex.value].detail) { 
-            currentDetail.value = cache.value.data[currentIndex.value].detail;
+        if (currentIndex.value < cache.value.data.length - 1)
+            currentIndex.value++;
+
+        if (cache.value.data[currentIndex.value].task) { 
+            currentDetail.value = cache.value.data[currentIndex.value];
         }
-        else if (currentIndex.value < cache.value.data.length) {
-            
+        else {
             await loadDetail(cache.value.data[currentIndex.value].id);
         }
     }
@@ -69,32 +71,23 @@ export function useDataRemainTask(ttlM = 30) {
         if (!cache.value) return;
         if (currentIndex.value > 0) {
             currentIndex.value--;
-            currentDetail.value = cache.value.data[currentIndex.value].detail;
+            currentDetail.value = cache.value.data[currentIndex.value];
         }
     }
 
-    const markAsSeen = (id) => {
-        if (!cache.value) return;
-
-        const item = cache.value.data.filter(x => x.id == id);
-        item.seen = true;
-
-        if (cache.value.data.all(x=> x.seen)) {
-            // همه آیتم‌ها دیده شدن → از سرور دوباره میاره
-            loadData();
-        } 
-    };
 
     const markAsDo = (id) => {
         if (!cache.value) return;
-        const item = cache.value.data.filter(x => x.id == id);
+        const item = cache.value.data.find(x => x.id == id);
         item.do = true;
+        nextItem();
     };
 
     const cancelItem = (id) => {
         if (!cache.value) return;
-        const item = cache.value.data.filter(x => x.id == id);
+        const item = cache.value.data.find(x => x.id == id);
         item.do = false;
+        currentDetail.value = item;
     };
 
     return {

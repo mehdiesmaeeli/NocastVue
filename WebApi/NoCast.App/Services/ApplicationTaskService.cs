@@ -89,10 +89,10 @@ namespace NoCast.App.Services
                     userSession.Block = wallet.BlockedAmount;
                     _cache.Set(request.OwnerId, userSession, TimeSpan.FromMinutes(30));
                 }
-                if (_cache.TryGetValue(AppSettings.AllTasks, out Dictionary<Guid, TaskSessionDto> tasks))
+                if (_cache.TryGetValue(AppCacheSetting.AllTasks, out Dictionary<Guid, TaskSessionDto> tasks))
                 {
                     tasks.Add(requestService.Id, new TaskSessionDto() { Price = requestService.Price, Title = requestService.Title, Url = requestService.TargetPostUrl });
-                    _cache.Set(AppSettings.AllTasks, tasks);
+                    _cache.Set(AppCacheSetting.AllTasks, tasks);
                 }
                 return request;
             }
@@ -185,10 +185,10 @@ namespace NoCast.App.Services
                     }
                     else
                     {
-                        if (_cache.TryGetValue(AppSettings.AllTasks, out Dictionary<Guid, TaskSessionDto> tasks))
+                        if (_cache.TryGetValue(AppCacheSetting.AllTasks, out Dictionary<Guid, TaskSessionDto> tasks))
                         {
                             tasks.Remove(serviceRequest.Id);
-                            _cache.Set(AppSettings.AllTasks, tasks);
+                            _cache.Set(AppCacheSetting.AllTasks, tasks);
                         }
                         serviceRequest.Status = ServiceRequestStatus.Completed;
                         serviceRequestValid = false;
@@ -240,7 +240,7 @@ namespace NoCast.App.Services
         {
             var tasks = await _context.ServiceRequests.Where(t => t.Status == ServiceRequestStatus.InProgress).Include(c=> c.TargetSocialAccount).ThenInclude(t=> t.User)
                 .ToDictionaryAsync(x => x.Id, y => new TaskSessionDto() { Price = y.Price, Title = y.Title, Url = y.TargetPostUrl , UserAvatar = y.TargetSocialAccount.User.AvatarPath , UserName = y.TargetSocialAccount.ProfileName });
-            _cache.Set(AppSettings.AllTasks, tasks);
+            _cache.Set(AppCacheSetting.AllTasks, tasks);
         }
 
         public async Task<bool> TaskCancelAsync(TaskDoDto request)
@@ -298,7 +298,7 @@ namespace NoCast.App.Services
 
         public async Task<TaskDetailDto?> GetDetailAsync(Guid id)
         {
-            if (_cache.TryGetValue(AppSettings.AllTasks, out Dictionary<Guid,TaskSessionDto> tasks))
+            if (_cache.TryGetValue(AppCacheSetting.AllTasks, out Dictionary<Guid,TaskSessionDto> tasks))
             {
                 if (tasks.TryGetValue(id, out TaskSessionDto detail))
                 {

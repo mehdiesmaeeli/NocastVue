@@ -6,7 +6,7 @@
         public const string Customer = "Customer";
     }
 
-    public static class AppSettings
+    public static class AppCacheSetting
     {
         public const string AllTasks = "AllTasks";
     }

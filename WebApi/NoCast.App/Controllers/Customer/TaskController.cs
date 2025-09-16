@@ -17,12 +17,17 @@ namespace NoCast.App.Controllers.Customer
         private readonly IServiceRequestService _serviceRequestService;
         private readonly IApplicationTaskService _applicationTaskService;
         private readonly IApplicationUserService _applicationUserService;
+        private readonly AppSettings _appSettings;
 
-        public TaskController(IServiceRequestService serviceRequestService, IApplicationTaskService applicationTaskService, IApplicationUserService applicationUserService)
+        public TaskController(IServiceRequestService serviceRequestService,
+            IApplicationTaskService applicationTaskService,
+            IApplicationUserService applicationUserService,
+            AppSettings appSettings)
         {
             _serviceRequestService = serviceRequestService;
             _applicationTaskService = applicationTaskService;
             _applicationUserService = applicationUserService;
+            _appSettings = appSettings;
         }
 
         [HttpGet("{id}")]
@@ -31,7 +36,7 @@ namespace NoCast.App.Controllers.Customer
             var sessionUser = await _applicationUserService.GetSessionAsync(UserId);
             var detail = await _applicationTaskService.GetDetailAsync(id);
             detail.TodayCnt = sessionUser.DoneTask;
-            detail.GiftCnt = 99;
+            detail.GiftCnt = _appSettings.GiftCnt;
             return ApiOk(detail, "Success");
         }
 
